@@ -1,0 +1,41 @@
+body {
+    font-family: Arial,"sans-serif";
+}
+article{
+    margin-right: 2%;
+    margin-top: 30px;
+    float: left;
+    width: 49%;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 10px;
+    border-right: 2px solid white;
+}
+div.wrapper{
+    width: 1000px;
+    margin: auto;
+}
+table{
+    width: 49%;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 15px;
+    border: 2px solid black;
+}
+td#Aardgas{
+    background-color: lightblue;
+}
+td#elektrischiteit{
+    background-color: lightgreen;
+}

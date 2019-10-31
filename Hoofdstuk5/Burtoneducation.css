@@ -1,0 +1,34 @@
+div#burtonwrapper {
+    width: 1000px;
+    margin: auto;
+    background-color: #ffe6e6
+}
+
+section#section1 {
+    width: 49%;
+    float: left;
+}
+section#section2{
+    width: 49%;
+    float: right;
+}
+img#foto1{
+    float: bottom;
+
+}
+article#article1 {
+    width: 30%;
+    float: left;
+}
+article#article2{
+    width: 30%;
+}
+article#article3{
+    width: 30%;
+    float: right;
+}
+article{
+    display: inline;
+    padding: 2px;
+    text-align: left;
+}

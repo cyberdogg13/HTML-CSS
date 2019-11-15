@@ -4,29 +4,22 @@
 
 body{
     margin: 0;
+    padding: 30px;
+}
+h1{
+    grid-column: 1/5;
+}
 
+form {
+    display: grid;
+    grid-template-columns: 20% 30% 10% 40%;
 }
-div{
-    position: relative;
-    width: 98%;
+#eten{
+    display: flex;
+    grid-column: 4/5;
+    grid-row: 2/auto;
 }
-div1 {
-    position: absolute;
-    left: 150px;
-    width: 200px;
 
-}
-div2{
-    position: absolute;
-    right: 150PX;
-    width: 200px;
+div#links{
 
-}
-ul{
-    list-style-type: none;
-    padding: 5px;
-    margin-left: 30px;
-}
-label{
-    vertical-align: top;
 }

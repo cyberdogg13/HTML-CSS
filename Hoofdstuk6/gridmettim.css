@@ -1,0 +1,39 @@
+div#wrapper {
+    width: 1000px;
+    height: 800px;
+    margin: 20px auto;
+    background: aquamarine;
+    display: grid;
+    grid:
+            "nav    nav" 150px
+            "kolom1 content" 500px
+            "kolom1 footer" 150px
+    / 300px 700px
+;
+}
+
+nav {
+    grid-area: nav;
+    background: gold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div#kolom1 {
+    grid-area: kolom1;
+    background: darkorange;
+}
+
+div#content {
+    grid-area: content;
+}
+
+div#footer {
+    grid-area: footer;
+    background: lightgrey;
+}
+
+nav img {
+    border-radius: 50%;
+}

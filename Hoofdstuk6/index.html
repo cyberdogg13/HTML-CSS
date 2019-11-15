@@ -9,53 +9,63 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div>
-    <form action="http://www.savatarian.com/html5/form.php" method="post">
-        <H1>Voorbeerldformulier</H1>
-        <label for="voornaam">voornaam</label>
-        <input type="text" name="voornaam" id="voornaam">
 
-        <label for="tussenvoegsel">tuseenvoegsel</label>
-        <input type="text" name="tussenvoegsel" id="tussenvoegsel">
+<form action="http://www.savatarian.com/html5/form.php" method="post">
 
-        <label for="achternaam">achternaam</label>
-        <input type="text" name="achternaam" id="achternaam">
-        <label for="lekkerEten" id="etenlabel">lekkerEten</label>
+    <div id="wrapper">
+        <h1>Voorbeeldformulier</h1>
 
+        <div id="labels">
+            <label for="voornaam" id="voornaamlabel">voornaam</label>
+            <label for="tussenvoegsel" id="tussenvoegsellabel">tuseenvoegsel</label>
+            <label for="achternaam" id="achternaamlabel">achternaam</label>
+            <label for="geslacht" id="geslachtlabel">geslacht</label>
+            <label for="kleurogen" id="kleurogenlabel">kleur ogen</label>
+            <label for="gebortedatum" id="gebrotedatumlabel">Geborte datum</label>
+            <label for="omschrijving" id="omschrijvinglabel">omschrijving</label>
+        </div>
 
-        <label for="geslacht">geslacht</label>
-        <input type="radio" name="geslacht" value="man" id="geslacht">
-        &nbsp;man
-        <input type="radio" name="geslacht" value="vrouw">
-        &nbsp;vrouw
+        <label for="lekkerEten" id="lekkeretenlabel">lekkerEten</label>
 
-        <label for="kleurOgen">kleur ogen</label>
-        <select name="kleurOgen" id="kleurOgen">
-            <option>groen</option>
-            <option>blauw</option>
-            <option>bruin</option>
-        </select>
+        <div id="inputs">
 
+            <input type="text" name="voornaam" id="voornaam">
+            <input type="text" name="tussenvoegsel" id="tussenvoegsel">
+            <input type="text" name="achternaam" id="achternaam">
 
-        <label for="geborteDatum">Geborte datum</label>
-        <input type="date" name="geborteDatum" id="geborteDatum">
-        <label for="omschrijving">omsschrijving</label>
+            <div id="geslachtknoppen">
+                <input type="radio" name="man" id="geslacht" value="man">
+                &nbsp;man
+                <input type="radio" name="vrouw" value="vrouw">
+                &nbsp;vrouw
+            </div>
+
+            <select name="kleurogen" id="kleurogen">
+                <option>groen</option>
+                <option>blauw</option>
+                <option>gbruin</option>
+            </select>
+
+            <input type="date" name="gebortedatum" id="gebortedatum">
+        </div>
         <textarea name="omschrijving" id="omschrijving">omschrijving</textarea>
 
-
-
-        <input type="reset" name="annuleer" value="annuleer">
-        <input type="submit" name="verzenden" value="verzenden">
-        <div id="eten">
-            <input type="checkbox" name="lekkerEten" value="patat" id="lekkerEten">
+        <div id="lekkereten">
+            <input type="checkbox" name="lekkereten" value="patat">
             <span class="checkbox">patat</span><br>
-            <input type="checkbox" name="lekkerEten" value="bruine bonen">
+            <input type="checkbox" name="lekkereten" value="buine bonen">
             <span class="checkbox">bruine bonen</span><br>
-            <input type="checkbox" name="lekkerEten" value="linzen">
+            <input type="checkbox" name="lekkereten" value="linzen">
             <span class="checkbox">linzen</span><br>
         </div>
 
-    </form>
-</div>
+        <div id="knoppen">
+            <input type="reset" name="annuleer" value="annuleer">
+            <input type="submit" name="verzenden" value="verzenden">
+        </div>
+
+    </div>
+</form>
+
 </body>
 </html>

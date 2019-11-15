@@ -1,25 +1,63 @@
-*{
-    border: dotted 1px;
+div#wrapper {
+
+    margin: 20px auto;
+    display: grid;
+    grid:
+            "header header header header" 15%
+            "labels inputs lekkeretenlabel lekkereten" 55%
+            "labels omschrijving omschrijving lekkereten" 15%
+            "knoppen knoppen knoppen knoppen" 15%
+    /       15%  35%   25%   25%
+;
 }
 
+h1 {
+    grid-area: header;
+    display: flex;
+    font-family: Arial, "sans-serif";
+}
 body{
     margin: 0;
     padding: 30px;
 }
-h1{
-    grid-column: 1/5;
-}
-
-form {
-    display: grid;
-    grid-template-columns: 20% 30% 10% 40%;
-}
-#eten{
+div#labels{
     display: flex;
-    grid-column: 4/5;
-    grid-row: 2/auto;
+    flex-direction: column;
+    grid-area: labels;
+    margin-left: 10px;
 }
+div#lekkereten{
+    grid-area: lekkereten;
+}
+label#lekkeretenlabel{
+    grid-area: lekkeretenlabel;
+    text-align: center;
+}
+div#inputs{
+    display: flex;
+    flex-direction: column;
 
-div#links{
-
+    grid-area: inputs;
+}
+div#knoppen{
+    grid-area: knoppen;
+    display: flex;
+    padding: 15px;
+    justify-content: end;
+}
+label {
+    margin: 20px;
+}
+input{
+    margin: 20px;
+}
+select{
+    margin: 20px;
+}
+textarea{
+    grid-area: omschrijving;
+    margin: 20px;
+}
+Div#knoppen input{
+    border-radius: 10%;
 }

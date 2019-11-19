@@ -1,0 +1,73 @@
+@media all and (max-width: 500px) {
+    div#logo {
+        background-color: purple;
+        height: 200px;
+        width: 500px;
+        text-align: center;
+    }
+
+    img#logoimg {
+        height: 200px;
+    }
+
+    div#wrapper {
+        margin: auto;
+        width: 500px;
+        font-family: sans-serif;
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    header{
+        margin: auto;
+        width: 800px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 10px;
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    div#nieuws {
+        grid-column: 1;
+
+    }
+
+    div#gitaar {
+        grid-columns: 1;
+    }
+
+    div#drums {
+        grid-column: 1;
+    }
+    div#saxofoon{
+        grid-column: 1;
+    }
+    div#trompet{
+        grid-column: 1;
+    }
+    div.blok{
+        margin: 20px;
+        padding: 10px;
+    }
+
+    img.ding {
+        margin-bottom: 20px;
+        float: top;
+        width: content-box;
+    }
+
+    nav {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        padding: 10px;
+    }
+
+}

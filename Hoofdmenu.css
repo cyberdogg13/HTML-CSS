@@ -1,15 +1,31 @@
-div.wrapper{
+div.wrapper {
     background-color: black;
     padding: 10px;
     width: 1000px;
     margin: auto;
 }
- a{
+
+a {
     color: white;
     padding: 20px;
     text-decoration: none;
     font-weight: bold;
 }
- h1{
-     text-align: center;
- }
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(
+            to right,
+            rgb(200, 190, 255) 0%,
+            rgb(222, 168, 248) 10%,
+            rgb(168, 222, 258) 30%,
+            rgb(189, 250, 205) 42%,
+            rgb(243, 250, 189) 58%,
+            rgb(250, 227, 189) 70%,
+            rgb(248, 172, 171) 95%,
+            rgb(254, 170, 212) 100%
+    );
+}

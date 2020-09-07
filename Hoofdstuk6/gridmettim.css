@@ -13,7 +13,7 @@ div#wrapper {
 
 nav {
     grid-area: nav;
-    background: gold;
+    background: blue;
     display: flex;
     justify-content: space-around;
     align-items: center;

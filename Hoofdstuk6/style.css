@@ -7,8 +7,9 @@ div#wrapper {
             "labels inputs lekkeretenlabel lekkereten" 55%
             "labels omschrijving omschrijving lekkereten" 15%
             "knoppen knoppen knoppen knoppen" 15%
-    /       15%  35%   25%   25%
-;
+    /       15%  35%   25%   25% ;
+
+    background-color: aqua;
 }
 
 h1 {

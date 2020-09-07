@@ -2,7 +2,6 @@ div#wrapper {
     width: 1000px;
     height: 800px;
     margin: 20px auto;
-    background: aquamarine;
     display: grid;
     grid:
             "nav    nav" 150px
@@ -27,6 +26,8 @@ div#kolom1 {
 
 div#content {
     grid-area: content;
+    background-image: url("../Hoofstuk7/Header.png");
+    background-color: #cccccc;
 }
 
 div#footer {
